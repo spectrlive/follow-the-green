@@ -1293,7 +1293,7 @@ function setupDrawForm() {
     } catch (error) {
       // sans importance
     }
-    finish("C’est enregistré. Les gagnant·es sont prévenu·es avant la soirée. Merci d’avoir joué !");
+    finish("C’est enregistré. Tirage le 17 novembre : les gagnant·es seront prévenu·es avant la soirée. Merci d’avoir joué !");
   });
 }
 
