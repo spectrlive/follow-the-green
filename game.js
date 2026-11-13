@@ -623,7 +623,7 @@ function talkRegie() {
   discover("met-regie", 5);
   regieMenu(state.discoveries.has("regie-lore")
     ? "LA RÉGIE — « Toujours là ? Tant mieux. Ça fait du monde à la régie. »"
-    : "LA RÉGIE — « Ah, enfin quelqu’un de chez Keep Hush ! Moi, je suis de SPECTR. On est une bande de potes : on a monté l’asso pour faire découvrir le UK garage, la jungle, la drum & bass, la bass… et un peu de Caraïbes aussi. »");
+    : "LA RÉGIE — « Ah, enfin quelqu’un de chez Keep Hush ! Moi, je suis de SPECTR. On est une bande de potes : on a monté l’asso pour faire découvrir le UK garage, la jungle, la drum & bass, la bass…»");
 }
 
 function renderTram(overrideText) {
