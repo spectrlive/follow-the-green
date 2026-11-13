@@ -1,7 +1,7 @@
 "use strict";
 
 // Colle ici ton URL Google Apps Script si tu souhaites enregistrer les résultats.
-const RESULT_ENDPOINT = "";
+const RESULT_ENDPOINT = "https://script.google.com/macros/s/AKfycbyk8oeTMUe4yKkBnWuJW6mDAyXPMig-t6pUZOUxHWFonrtT-gS6NZf_uuqft3qGiT0/exec";
 const TOTAL_DISCOVERIES = 26;
 
 const $ = (selector) => document.querySelector(selector);
