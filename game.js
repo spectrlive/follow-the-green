@@ -1281,8 +1281,11 @@ function setupDrawForm() {
       name,
       contact: contact.value,
       contactType: contact.type,
-      profile: getProfile(),
-      posters: posterCount()
+            profile: getProfile(),
+      posters: posterCount(),
+      discoveries: state.discoveries.size,
+      items: state.inventory.size + (state.helpedMusician ? 1 : 0),
+      score: getScore()
     });
     track("entry_submit", { contactType: contact.type });
     try {
